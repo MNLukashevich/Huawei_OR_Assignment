@@ -25,11 +25,3 @@ The solution aims to minimize the maximal completion time (makespan).
 
 ### Dependencies:
 - **CPLEX Libraries:** Ensure that the CPLEX libraries are installed and the `CPLEXDIR` is correctly set in the `Makefile`.
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/MNLukashevich/Huawei_OR_Assignment.git
-   cd Huawei_OR_Assignment
