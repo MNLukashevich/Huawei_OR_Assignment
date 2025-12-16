@@ -2,18 +2,6 @@
 
 This project aims to solve a job scheduling problem, where jobs need to be assigned to machines in a way that minimizes the maximal completion time (makespan). The goal is to balance the workload across machines efficiently and optimize the overall scheduling process. The project implements both Mixed Integer Linear Programming (MILP) and a pseudo-polynomial algorithm to solve the problem.
 
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Building the Project](#building-the-project)
-- [Makefile Commands](#makefile-commands)
-- [Running the Program](#running-the-program)
-- [Testing](#testing)
-- [Results Analysis](#results-analysis)
-- [Backup and Clean](#backup-and-clean)
-
 ## Project Description
 
 The task is to optimize the scheduling of jobs between machines such that the makespan (maximum load) across all machines is minimized. The project includes a MILP model and a pseudo-polynomial algorithm to solve the problem.
