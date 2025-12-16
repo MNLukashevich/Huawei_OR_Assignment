@@ -1,6 +1,6 @@
-# Huawei Job Scheduling Optimization
+# Job Scheduling Optimization
 
-This project aims to solve a job scheduling problem for Huawei Research Center, Minsk, involving the assignment of jobs to machines in such a way that the maximal completion time (makespan) is minimized. The project includes both Mixed Integer Linear Programming (MILP) and a pseudo-polynomial algorithm to solve the problem.
+This project aims to solve a job scheduling problem, where jobs need to be assigned to machines in a way that minimizes the maximal completion time (makespan). The goal is to balance the workload across machines efficiently and optimize the overall scheduling process. The project implements both Mixed Integer Linear Programming (MILP) and a pseudo-polynomial algorithm to solve the problem.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ The task is to optimize the scheduling of jobs between machines such that the ma
 - Each machine can process only one job at a time.
 - Jobs must be assigned to machines such that the processing times on each machine are as balanced as possible.
 
-The solution should minimize the maximal completion time (makespan).
+The solution aims to minimize the maximal completion time (makespan).
 
 ### Solution Methods:
 1. **MILP Optimization Model:** A Mixed Integer Linear Programming model to solve the problem.
@@ -32,11 +32,11 @@ The solution should minimize the maximal completion time (makespan).
 ## Requirements
 
 - **C++17 or later**
-- **CPLEX Optimization Studio** (for MILP model)
+- **CPLEX Optimization Studio** (for the MILP model)
 - **g++** (for compiling the code)
 
 ### Dependencies:
-- **CPLEX Libraries:** Make sure the CPLEX libraries are installed and the `CPLEXDIR` is correctly set in the `Makefile`.
+- **CPLEX Libraries:** Ensure that the CPLEX libraries are installed and the `CPLEXDIR` is correctly set in the `Makefile`.
 
 ## Installation
 
